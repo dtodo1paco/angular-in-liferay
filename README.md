@@ -7,9 +7,9 @@ It just displays the Roles registered in the Portal
 
 ![Alt text](/screenshots/angular-in-liferay.png?raw=true "Optional Title")
 
-
 ## Installation
 Just download the WAR file and deploy in your Liferay 6.2 bundle.
+[Download now!](https://github.com/dtodo1paco/angular-in-liferay/raw/master/dist/angular-in-liferay-portlet-6.2.0.1.war)
 
 ## Compile
 Copy the angular-in-liferay-portlet directory to your SDK portlet folder and start working. 
