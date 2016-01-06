@@ -5,6 +5,9 @@ It just displays the Roles registered in the Portal
 * as table
 * both using pagination
 
+![Alt text](/screenshots/angular-in-liferay.png?raw=true "Optional Title")
+
+
 ## Installation
 Just download the WAR file and deploy in your Liferay 6.2 bundle.
 
