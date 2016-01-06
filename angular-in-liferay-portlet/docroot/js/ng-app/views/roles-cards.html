@@ -1,0 +1,32 @@
+<div data-pagination="" data-num-pages="numPages"
+	data-items-per-page="itemsPerPage" data-total-items="totalItems"
+	data-page="currentPage"></div>
+<div class="ui link cards">
+	<div ng-repeat="item in results">
+		<div class="ui card">
+			<div class="image">
+				<img src="{{item.image}}"/>
+			</div>
+			<div class="meta">
+				some metadata
+			</div>
+			<div class="content">
+				<div class="header">{{item.name}}</div>
+				<div class="meta">
+					<a>Role</a>
+				</div>
+				<div class="description">{{item.description}}</div>
+			</div>
+			<div class="extra content">
+				<span class="right floated"> {{item.createDate | date : 'dd MMM yyyy'}} </span> 
+				<span> <i class="user icon"></i> 
+					{{item.id}}
+				</span>
+			</div>
+		</div>
+	</div>
+</div>
+<div data-pagination="" data-num-pages="numPages"
+	data-items-per-page="itemsPerPage" data-total-items="totalItems"
+	data-page="currentPage"></div>
+

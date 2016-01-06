@@ -1,0 +1,20 @@
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>Id</th>
+			<th>name</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="item in results">
+			<td>{{item.id}}</td>
+			<td>{{item.name}}</td>
+		</tr>
+	</tbody>
+</table>
+
+<div data-pagination="" data-num-pages="numPages"
+	data-items-per-page="itemsPerPage" data-total-items="totalItems"
+	data-page="currentPage"></div>
+
